@@ -1,0 +1,29 @@
+body {
+  /* background-color: #000000; */
+  padding: 0;
+  margin: 0;
+  background-image: url("https://www.elespanol.com/branded/hp-seguridad-informatica/img/animation-01.gif");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 800px 50px;
+}
+.divOr {
+  margin: 0;
+  margin-left: 26%;
+  color: #3f85ec;
+  width: max-content;
+  position: absolute;
+  margin-top: 0.45%;
+  font-weight: bold;
+  font-size: 130%;
+}
+.lorem {
+  color: white;
+  margin: 0;
+}
+.divLorem {
+  margin-top: 3.5%;
+  margin-right: 30%;
+  float: right;
+  width: max-content;
+}

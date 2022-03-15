@@ -1,7 +1,8 @@
 .Login {
+  font-size: 120%;
   margin-top: 5%;
   margin-left: 17%;
-  font-size: 120%;
+  margin-bottom: 0.5%;
   padding-left: 3%;
   padding-right: 3%;
   color: #6683ee;
@@ -10,24 +11,28 @@
   border-color: #12cdd4;
   box-shadow: 1px 1px 15px turquoise;
   position: relative;
+  border-style: inset;
 }
 .hoverLogin:hover {
-  box-shadow: 1px 1px 15px #6683ee;
+  box-shadow: 1px 1px 15px #3f85ec;
   cursor: pointer;
 }
 .Register {
-  margin-top: 2%;
+  margin-top: 3%;
   margin-left: 17.5%;
   font-size: 120%;
   padding-left: 2%;
   padding-right: 2%;
-  color: #6683ee;
+  color: #3f85ec;
   background-color: #000000;
   border-radius: 10%;
   border-color: #12cdd4;
   box-shadow: 1px 1px 15px turquoise;
+  display: block;
+  position: absolute;
+  border-style: inset;
 }
 .Register:hover {
-  box-shadow: 1px 1px 15px #6683ee;
+  box-shadow: 1px 1px 15px #3f85ec;
   cursor: pointer;
 }
