@@ -1,13 +1,13 @@
 import React from "react";
 import { Header } from "./Header";
 import { Lorem } from "./Lorem";
-// import { Form } from "./Form";
+import { Form } from "./Form";
 function Info() {
 	return (
 		<React.Fragment>
 			<Header />
 			<Lorem />
-			{/* <Form /> */}
+			<Form />
 		</React.Fragment>
 	)
 }

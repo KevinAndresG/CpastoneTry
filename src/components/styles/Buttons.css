@@ -7,7 +7,7 @@
   padding-right: 3%;
   color: #6683ee;
   background-color: #000000;
-  border-radius: 10%;
+  border-radius: 10px 10px;
   border-color: #12cdd4;
   box-shadow: 1px 1px 15px turquoise;
   position: relative;
@@ -25,7 +25,7 @@
   padding-right: 2%;
   color: #3f85ec;
   background-color: #000000;
-  border-radius: 10%;
+  border-radius: 10px 10px;
   border-color: #12cdd4;
   box-shadow: 1px 1px 15px turquoise;
   display: block;
