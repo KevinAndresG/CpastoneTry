@@ -17,13 +17,64 @@ body {
   font-weight: bold;
   font-size: 130%;
 }
+.divLorem {
+  font-size: 130%;
+  text-align: center;
+  margin-top: 5.5%;
+  margin-right: 45%;
+  float: right;
+  width: max-content;
+}
 .lorem {
+  font-weight: bold;
   color: white;
   margin: 0;
 }
-.divLorem {
-  margin-top: 3.5%;
-  margin-right: 30%;
-  float: right;
-  width: max-content;
+
+.parplorem {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
+  50% {
+    text-shadow: 0px 0px 5px #12cdd4;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
+  50% {
+    text-shadow: 0px 0px 5px #12cdd4;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
+  50% {
+    text-shadow: 0px 0px 5px #12cdd4;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #12cdd4;
+  }
 }

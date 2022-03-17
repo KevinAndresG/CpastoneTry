@@ -5,17 +5,18 @@
   margin-bottom: 0.5%;
   padding-left: 3%;
   padding-right: 3%;
-  color: #6683ee;
+  color: #3f85ec;
   background-color: #000000;
   border-radius: 10px 10px;
   border-color: #12cdd4;
-  box-shadow: 1px 1px 15px turquoise;
+  box-shadow: 0px 0px 15px turquoise;
   position: relative;
   border-style: inset;
 }
 .hoverLogin:hover {
-  box-shadow: 1px 1px 15px #3f85ec;
+  box-shadow: 0px 0px 12px #3f85ec;
   cursor: pointer;
+  transition: 0.1s ease-in;
 }
 .Register {
   margin-top: 3%;
@@ -33,6 +34,7 @@
   border-style: inset;
 }
 .Register:hover {
-  box-shadow: 1px 1px 15px #3f85ec;
+  box-shadow: 0px 0px 12px #3f85ec;
   cursor: pointer;
+  transition: 0.1s ease-in;
 }
